@@ -21,9 +21,15 @@ cookies.json
 
 # Private local exports (bookmark text and full returned payloads)
 /.private/twitter-bookmarks/
+/.private/xchat-inbox/
 
 # MkDocs build output
 /site/
 /docs/api.md
 /docs/api.*.md
 /docs/_cli_tools.*.md
+
+# XChat webhook Worker local dependencies and Cloudflare state
+/webhook-worker/node_modules/
+/webhook-worker/.wrangler/
+/webhook-worker/.dev.vars*
